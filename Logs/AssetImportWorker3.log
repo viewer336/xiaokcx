@@ -1,0 +1,1907 @@
+Unity Editor version:    2022.3.8f1c1 (4ec8ee1b2212)
+Branch:                  2022.3/china_unity/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.4 (Build 24E248)
+Darwin version:          24.4.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.8f1c1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+/Users/ming/Desktop/Unity/小孔成像
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+56946
+Successfully changed project path to: /Users/ming/Desktop/Unity/小孔成像
+/Users/ming/Desktop/Unity/小孔成像
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8617364544] Host "[IP] 10.130.239.131 [Port] 0 [Flags] 2 [Guid] 943554800 [EditorId] 943554800 [Version] 1048832 [Id] OSXEditor(0,MingdeMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8617364544] Host "[IP] 10.130.239.131 [Port] 0 [Flags] 2 [Guid] 943554800 [EditorId] 943554800 [Version] 1048832 [Id] OSXEditor(0,MingdeMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 5.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.8f1c1 (4ec8ee1b2212)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.8f1c1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/ming/Desktop/Unity/小孔成像/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.8f1c1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.8f1c1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.8f1c1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56719
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.8f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.8f1c1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003613 seconds.
+- Loaded All Assemblies, in  0.313 seconds
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.188 seconds
+Domain Reload Profiling: 501ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (118ms)
+		LoadAssemblies (117ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (116ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (103ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (188ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (140ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (94ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.494 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.507 seconds
+Domain Reload Profiling: 1001ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (331ms)
+		LoadAssemblies (234ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (114ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (507ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (396ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (339ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.8f1c1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3157 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (51.0 KB). Loaded Objects now: 3620.
+Memory consumption went from 127.8 MB to 127.8 MB.
+Total: 3.193833 ms (FindLiveObjects: 0.104083 ms CreateObjectMapping: 0.046125 ms MarkObjects: 2.937916 ms  DeleteObjects: 0.105333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 134439.247862 seconds.
+  path: Assets/Arts/ui/古风对话框.png
+  artifactKey: Guid(73b96e846aa0b794e823892d29098412) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/ui/古风对话框.png using Guid(73b96e846aa0b794e823892d29098412) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dbe85d0b67767c1abb5eeb32bfb428ad') in 0.101169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Arts/Models/院子.fbx
+  artifactKey: Guid(75b41291df2d9e648a82f560c0dec1c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Models/院子.fbx using Guid(75b41291df2d9e648a82f560c0dec1c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '601dc5d45d46f84e41cf89989b98091c') in 0.126106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 209
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Arts/Materials/pVRayMtl14.mat
+  artifactKey: Guid(7f2f8120598d251448f47e7b24a12931) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/pVRayMtl14.mat using Guid(7f2f8120598d251448f47e7b24a12931) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0d743814e8d7aa7557f31b72befdb363') in 0.012978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Arts/Materials/sp_PondWater.mat
+  artifactKey: Guid(ed2c663f0d3c9494d9a3704b3694585d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/sp_PondWater.mat using Guid(ed2c663f0d3c9494d9a3704b3694585d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'edc958cf91aa4eb8314b7fb53cc9ae08') in 0.005888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Arts/Materials/sp_Weed2.mat
+  artifactKey: Guid(29c2637584139ed4793654db661f5ce9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/sp_Weed2.mat using Guid(29c2637584139ed4793654db661f5ce9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f04a004dbc34bf3586a64c7befd37e5c') in 0.004013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Arts/Materials/pVRayMtl19.mat
+  artifactKey: Guid(2d9bb160a29be1b47ac42b0775c32f5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/pVRayMtl19.mat using Guid(2d9bb160a29be1b47ac42b0775c32f5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ec0a47bcf82c7aa695b3906281d12fe') in 0.003379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Arts/Materials/VRayMtl36.mat
+  artifactKey: Guid(55bd9fdb611096f429b079ccee96a5e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/VRayMtl36.mat using Guid(55bd9fdb611096f429b079ccee96a5e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eb9694ef64fc884d5b3e38056614d36f') in 0.004822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Arts/Materials/spGroundDirt.mat
+  artifactKey: Guid(79a354070ac9a5e478798415810f4fc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/spGroundDirt.mat using Guid(79a354070ac9a5e478798415810f4fc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '47cbe5901424e9feb1eb807cfb0d247c') in 0.009004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Arts/Models/禅意盆景 (2).fbx
+  artifactKey: Guid(ebdc798171b96ff4f87d1c5706ea0161) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Models/禅意盆景 (2).fbx using Guid(ebdc798171b96ff4f87d1c5706ea0161) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3d30b1c4cce1e5429a1be0648df48ae4') in 0.015340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Arts/Models/禅意盆景 (13).fbx
+  artifactKey: Guid(86c4669d87a035f4ca16738a0bdbceea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Models/禅意盆景 (13).fbx using Guid(86c4669d87a035f4ca16738a0bdbceea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f2c5c3da4b832e59750e09f21ca45a44') in 0.013076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Arts/Materials/VRayMtl19.mat
+  artifactKey: Guid(d594a93e74b5c43429262717e75d6f28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/VRayMtl19.mat using Guid(d594a93e74b5c43429262717e75d6f28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1903f9979740b32b542233c89d908c5b') in 0.003633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Arts/Materials/VRayMtl24.mat
+  artifactKey: Guid(e41a6f2ecb866dc429e69308d8300b13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/VRayMtl24.mat using Guid(e41a6f2ecb866dc429e69308d8300b13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e5299bec35141e73b05724cdc184e637') in 0.003982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Arts/Materials/pVRayMtl16.mat
+  artifactKey: Guid(ba7eb8dde4338804f9c3a1353d7d563a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/pVRayMtl16.mat using Guid(ba7eb8dde4338804f9c3a1353d7d563a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0d6266781b1a3d606d04b81533143eda') in 0.004157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Arts/Materials/VRayMtl34.mat
+  artifactKey: Guid(56bb38e3525b3b0468bcbda7335ce7f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/VRayMtl34.mat using Guid(56bb38e3525b3b0468bcbda7335ce7f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1919783dd931960d82cff95ceae8228b') in 0.003439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Arts/Materials/VRayMtl27.mat
+  artifactKey: Guid(fd771b06e9b63dd4c978bbbb46296c28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/VRayMtl27.mat using Guid(fd771b06e9b63dd4c978bbbb46296c28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1b6ea2432e38a61e37d335a7daad6359') in 0.003203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Arts/Materials/sp_EdgeStones2.mat
+  artifactKey: Guid(2287431965d8cd649a5549a55bb5e927) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/sp_EdgeStones2.mat using Guid(2287431965d8cd649a5549a55bb5e927) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7bb49b36bdd3e704b384468677b5f1e3') in 0.007566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Arts/Materials/sp_screen.mat
+  artifactKey: Guid(e4697663f5da20344a69e275b82bd70b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/sp_screen.mat using Guid(e4697663f5da20344a69e275b82bd70b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '53fcfcc1c645aff392a5c55c82303d3f') in 0.004263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Arts/Materials/VRayMtl8.mat
+  artifactKey: Guid(53f35306a27748046aa4aba8f5562437) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/VRayMtl8.mat using Guid(53f35306a27748046aa4aba8f5562437) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f1085b38ace8401b1530e6fe5d1146ab') in 0.003332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Arts/Materials/VRayMtl31.mat
+  artifactKey: Guid(8e01ffed48ebfe04596c930704c1a16f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/VRayMtl31.mat using Guid(8e01ffed48ebfe04596c930704c1a16f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f352228e8a82d3ce9d654e022bca4c03') in 0.003345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Arts/Materials/pVRayMtl18.mat
+  artifactKey: Guid(95a9b06f629db4d41943efe82f5df0e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/pVRayMtl18.mat using Guid(95a9b06f629db4d41943efe82f5df0e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '377e09e5f788bd8ab11264a796e56fb5') in 0.004713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Arts/Materials/VRayMtl28.mat
+  artifactKey: Guid(d51bb22c2f7b4314ca41c7c60a527a27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/VRayMtl28.mat using Guid(d51bb22c2f7b4314ca41c7c60a527a27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '988036c95b144dcf428e9c499df9cbf8') in 0.003575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Arts/Materials/VRayMtl30.mat
+  artifactKey: Guid(2d1b8da6ecd81ef4eb8239fe294c3224) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/VRayMtl30.mat using Guid(2d1b8da6ecd81ef4eb8239fe294c3224) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2ba9bb6e6b3e6ddf8d80e13416718d46') in 0.003442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Arts/Materials/VRayMtl5.mat
+  artifactKey: Guid(d7f6d7f33da627d41b0f75fa3d5c9b95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/VRayMtl5.mat using Guid(d7f6d7f33da627d41b0f75fa3d5c9b95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5c665c19a4e62b0ea3033fb7c0562752') in 0.004684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000673 seconds.
+  path: Assets/Arts/Materials/VRayMtl18.mat
+  artifactKey: Guid(f99734fd8ff2eb944a67eaa92914c345) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/VRayMtl18.mat using Guid(f99734fd8ff2eb944a67eaa92914c345) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7d390285f18ecf279c5cf021d72cae23') in 0.004342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Arts/Materials/VRayMtl35.mat
+  artifactKey: Guid(2e689d43d8d3a76489607df07aebfccd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/VRayMtl35.mat using Guid(2e689d43d8d3a76489607df07aebfccd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '14ff524338125763b336994f56a460e9') in 0.003858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001685 seconds.
+  path: Assets/Arts/Materials/sp_Weed.mat
+  artifactKey: Guid(a723942803b91f44ab9288b82b6ccaf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/sp_Weed.mat using Guid(a723942803b91f44ab9288b82b6ccaf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '65b46beccf9a0b6e7ca9db945d4c2580') in 0.005991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Arts/Materials/VRayMtl29.mat
+  artifactKey: Guid(74d5394d5b7d3794e981492a8fda1388) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/VRayMtl29.mat using Guid(74d5394d5b7d3794e981492a8fda1388) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '91217202961e37bf37dcdb3cc8365e79') in 0.003172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Arts/Materials/sp_Ivy2.mat
+  artifactKey: Guid(5ac3bd5f543ea8745a98181fd12d84d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/sp_Ivy2.mat using Guid(5ac3bd5f543ea8745a98181fd12d84d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '87b799045c7e6805cf808b12d5af3407') in 0.003700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Arts/Materials/sp_det.mat
+  artifactKey: Guid(e57600aa17407f44599941c2f801e5fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/sp_det.mat using Guid(e57600aa17407f44599941c2f801e5fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a06833892f6359c71c214a7b152a5b23') in 0.004773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Arts/Materials/VRayMtl13.mat
+  artifactKey: Guid(8c684d2f18300c143a263c4619b48af8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/VRayMtl13.mat using Guid(8c684d2f18300c143a263c4619b48af8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '237240d660270ab59fbf06c9796e9e70') in 0.003122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Arts/Models/禅意盆景 (17).fbx
+  artifactKey: Guid(dbd08728f754cff45b551a68bfca5607) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Models/禅意盆景 (17).fbx using Guid(dbd08728f754cff45b551a68bfca5607) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c52e66b78c7636a2e773ebce8b12867e') in 0.061089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Arts/Materials/pVRayMtl9.mat
+  artifactKey: Guid(ddc480f473862194d84e91ac71f0fea2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/pVRayMtl9.mat using Guid(ddc480f473862194d84e91ac71f0fea2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '59ad9dc3bfc1658d8f33515e85a036f4') in 0.003470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Arts/Models/禅意盆景 (11).fbx
+  artifactKey: Guid(3720c6bb7c4f65748923b53d5bb69403) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Models/禅意盆景 (11).fbx using Guid(3720c6bb7c4f65748923b53d5bb69403) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '363c5b024032892fcd1a9b80f3b6dcc1') in 0.019915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 81
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Arts/ui/弹窗2.jpg
+  artifactKey: Guid(a2fbb64e4928a464ab2591492e905bbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/ui/弹窗2.jpg using Guid(a2fbb64e4928a464ab2591492e905bbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f377f2aa48ec9f2a60744fd5aa2c51ce') in 0.012189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Arts/Materials/VRayMtl25.mat
+  artifactKey: Guid(caebe60e6d96b5f438b21cb7325c29bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/VRayMtl25.mat using Guid(caebe60e6d96b5f438b21cb7325c29bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '805da17396391d8c7981f932c3f2d3fe') in 0.003696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Arts/Materials/sp_Bark.mat
+  artifactKey: Guid(25cd508b73326d6418d59374dc2d26b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/sp_Bark.mat using Guid(25cd508b73326d6418d59374dc2d26b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c4ad7d3309ec907292df83ceb5a6ccf7') in 0.005239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Arts/Materials/VRayMtl46.mat
+  artifactKey: Guid(28c445d59707c2a41aefcf9b911a0ffc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/VRayMtl46.mat using Guid(28c445d59707c2a41aefcf9b911a0ffc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '400b435a90832feb0f876be7eb82e278') in 0.002711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Arts/Materials/sp_Ivy.mat
+  artifactKey: Guid(ced2a0085c825fe4a8c3a973583d877e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/sp_Ivy.mat using Guid(ced2a0085c825fe4a8c3a973583d877e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd606bbf1000d38a24df93a07940bc4e9') in 0.003195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Arts/Materials/VRayMtl11.mat
+  artifactKey: Guid(7437d19bbc626a642a3dfe40d486af39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/VRayMtl11.mat using Guid(7437d19bbc626a642a3dfe40d486af39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cd147adb9cf2cc80bdb06b3b7dcb1022') in 0.002661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Arts/Materials/pVRayMtl11.mat
+  artifactKey: Guid(38b8651bd6bafc343abb9ec7d85e2563) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/pVRayMtl11.mat using Guid(38b8651bd6bafc343abb9ec7d85e2563) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9b9c5caf2329c5372007ff0dd7b991ac') in 0.004070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Arts/Materials/sp_fence.mat
+  artifactKey: Guid(9e38fec9c3122694180656e725f749aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/sp_fence.mat using Guid(9e38fec9c3122694180656e725f749aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b67c489c29657f5245c0ae4f8805db89') in 0.004551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Arts/Materials/VRayMtl45.mat
+  artifactKey: Guid(dc17ce5939736ad459f80ca56da5ac57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials/VRayMtl45.mat using Guid(dc17ce5939736ad459f80ca56da5ac57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6e03a7decba3c7cc14f31fc4604ac329') in 0.002839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.009797 seconds.
+  path: Assets/Arts/预览图/禅意盆景 (10).jpg
+  artifactKey: Guid(e909d5c611a4b534391eb1979d60dcd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/预览图/禅意盆景 (10).jpg using Guid(e909d5c611a4b534391eb1979d60dcd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '886152e18500f1eb323977372425319d') in 0.011091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Arts/Textures/3.fbm/sp_PondBase.jpg
+  artifactKey: Guid(7440301ba453a7645913febc2581e744) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/3.fbm/sp_PondBase.jpg using Guid(7440301ba453a7645913febc2581e744) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9f2ed3f6f663ee595d1d0e8341e6bf0b') in 0.010381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001427 seconds.
+  path: Assets/Arts/Textures/3.fbm/sp_ColumnBS.jpg
+  artifactKey: Guid(874344b95f3698b43bcaaac32a1ead22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/3.fbm/sp_ColumnBS.jpg using Guid(874344b95f3698b43bcaaac32a1ead22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '96cd0abfd4d97fa6f1b5e4b873494abd') in 0.011782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Arts/预览图/禅意盆景 (3).jpg
+  artifactKey: Guid(9d223e26d0eb3e5498dc51341e1d7b92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/预览图/禅意盆景 (3).jpg using Guid(9d223e26d0eb3e5498dc51341e1d7b92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b7b0fb00555e90f8f3f239813b5ebc43') in 0.011919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '110430cb83c527be8f8c6c5d671edaaa') in 0.019730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/TextMesh Pro/Fonts/字魂敦煌画意体(商用需授权).ttf
+  artifactKey: Guid(e5be2c08df93e784aad966c3cb592b5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Fonts/字魂敦煌画意体(商用需授权).ttf using Guid(e5be2c08df93e784aad966c3cb592b5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a099ff7689fa443199007bb0baf7aab0') in 0.016635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Arts/Textures/3.fbm/sp_StepsB.jpg
+  artifactKey: Guid(f65778e0bf7e89e4892ea88bf4327415) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/3.fbm/sp_StepsB.jpg using Guid(f65778e0bf7e89e4892ea88bf4327415) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5a7f597f2f4528dec7e8ed3ee6a1eaad') in 0.011589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Arts/Textures/3.fbm/sp_Pave1.jpg
+  artifactKey: Guid(a1860b58e2f1b804eb26028ee2249a66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/3.fbm/sp_Pave1.jpg using Guid(a1860b58e2f1b804eb26028ee2249a66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c8196bf128dd76d606cf426de98ee2db') in 0.011410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Arts/预览图/禅意盆景 (5).jpg
+  artifactKey: Guid(0d70b28ef98ead449b5890a0b1fbd541) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/预览图/禅意盆景 (5).jpg using Guid(0d70b28ef98ead449b5890a0b1fbd541) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2c52753a38c047f307cfb354fdd8e585') in 0.011221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Arts/预览图/禅意盆景 (11).jpg
+  artifactKey: Guid(e2061cf852671da4ea3a08e3ca5a9540) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/预览图/禅意盆景 (11).jpg using Guid(e2061cf852671da4ea3a08e3ca5a9540) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6c3d214163e28b3bd823ac67a03a1ac4') in 0.010854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Arts/Textures/3.fbm/sp_EdgeStones2B.jpg
+  artifactKey: Guid(9d5dc72d4996dc64289e5506641e5032) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/3.fbm/sp_EdgeStones2B.jpg using Guid(9d5dc72d4996dc64289e5506641e5032) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2763c1a9c9cdf65b4ee64701db52b582') in 0.012569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a33162b7c9c1026c42734c38eb229704') in 0.007299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd40c9e3efca745b9e0910b2758bafa80') in 0.001893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4eab4bbe67c722ae47a3f20a90c8545e') in 0.005975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f2a279caf05db3ab48e3d22e113f8e61') in 0.004587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '48b91c32e99c9694bee1fbcbe3e0948f') in 0.040819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Arts/Textures/3.fbm/sp_Ivy.jpg
+  artifactKey: Guid(f44582beae79dad4c800e6b5b35d23eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/3.fbm/sp_Ivy.jpg using Guid(f44582beae79dad4c800e6b5b35d23eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c6eeb1cb6ae99c590c91c3368237b38d') in 0.009910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Arts/Textures/3.fbm/sp_EdgeStone.jpg
+  artifactKey: Guid(23f470c1a83172b4d90f284d67132c84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/3.fbm/sp_EdgeStone.jpg using Guid(23f470c1a83172b4d90f284d67132c84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5978e7c8be3768bdc04ec94f3ee9b73a') in 0.010592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Arts/Textures/3.fbm/sp_IvyB.jpg
+  artifactKey: Guid(d1ca5a5463dd329489612a0aeb571b90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/3.fbm/sp_IvyB.jpg using Guid(d1ca5a5463dd329489612a0aeb571b90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '885b23bf00afcbf763c9f51c2a069766') in 0.010161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Arts/Textures/3.fbm/sp_Grass2.jpg
+  artifactKey: Guid(7d5657dfb449c42469366a13e2c8697c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/3.fbm/sp_Grass2.jpg using Guid(7d5657dfb449c42469366a13e2c8697c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f734efbab2d76036cf76a5c187ea2b1') in 0.011666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Arts/Textures/3.fbm/sp_PlasterB.jpg
+  artifactKey: Guid(d71d0dfb86b6fcd4d999f174038cf257) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/3.fbm/sp_PlasterB.jpg using Guid(d71d0dfb86b6fcd4d999f174038cf257) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0d4ff7a4e1f2d43dbd9dd834eed3c8be') in 0.013721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Arts/预览图/禅意盆景 (9).jpg
+  artifactKey: Guid(b3454568f5fe8f840bb4487484efb846) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/预览图/禅意盆景 (9).jpg using Guid(b3454568f5fe8f840bb4487484efb846) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c0b296884ac72670887f8f1455801bfe') in 0.011715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Arts/Textures/3.fbm/sp_Ivy2.jpg
+  artifactKey: Guid(e18e070e43e1f7a47b75dc6fadcd81a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/3.fbm/sp_Ivy2.jpg using Guid(e18e070e43e1f7a47b75dc6fadcd81a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a68339d9f5156f18c3892a6b573ec8f6') in 0.010026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '555208a098ad75c9ab4d0bfaa671865f') in 0.006307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '49546f590ac509b5992419c4318d6867') in 0.002452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Arts/Textures/3.fbm/sp_Grass2B.jpg
+  artifactKey: Guid(f916e4b0994274a408322fe05d36e6cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/3.fbm/sp_Grass2B.jpg using Guid(f916e4b0994274a408322fe05d36e6cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4794323a44fa7477d3e3d53b1e01006c') in 0.010897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ef54e2b25b569da04e888aa3ce851d8d') in 0.004414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Arts/预览图/禅意盆景 (20).jpg
+  artifactKey: Guid(600ad163d7dffef4ab2145897d9e4be2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/预览图/禅意盆景 (20).jpg using Guid(600ad163d7dffef4ab2145897d9e4be2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3e2a81b03ea3f1dd4966a1d1500d5bae') in 0.011616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/TextMesh Pro/Fonts/字魂贵州省博物馆联名体(商用需授权) SDF.asset
+  artifactKey: Guid(55317606bb5ee97459b04e3840cbe535) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Fonts/字魂贵州省博物馆联名体(商用需授权) SDF.asset using Guid(55317606bb5ee97459b04e3840cbe535) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8fdf0396d0033a41e9cf57bebfd74a4a') in 0.032848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0d949e5737ac22a75ff46051224d6e6a') in 0.001986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Arts/Textures/3.fbm/sp_Pine.jpg
+  artifactKey: Guid(d7872ba7a4c5ec040ad1db80cb922d9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/3.fbm/sp_Pine.jpg using Guid(d7872ba7a4c5ec040ad1db80cb922d9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e4d00629868f6979ca6935e458aeebfb') in 0.009865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Arts/Textures/3.fbm/sp_Grass1B.jpg
+  artifactKey: Guid(a7a2bbe8453d74843bd70f50f4617171) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/3.fbm/sp_Grass1B.jpg using Guid(a7a2bbe8453d74843bd70f50f4617171) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c0b20548d78726135a48f1eb7749b4c0') in 0.012371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Arts/Textures/3.fbm/sp_PineBranchA.jpg
+  artifactKey: Guid(aad0b865dc9528343b28a5f67780aa6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/3.fbm/sp_PineBranchA.jpg using Guid(aad0b865dc9528343b28a5f67780aa6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3ff6a5bb2aca5fcbac33ea40a0c30e7a') in 0.011738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Arts/Textures/3.fbm/sp_Plaster2.jpg
+  artifactKey: Guid(03d077b581911c149a91d37bbac44ad5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/3.fbm/sp_Plaster2.jpg using Guid(03d077b581911c149a91d37bbac44ad5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a6ea4af8ff96518af38bcca019303043') in 0.010056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Arts/Textures/3.fbm/sp_Plaster.jpg
+  artifactKey: Guid(84bbe8a01fc77134db415788c97f1f35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/3.fbm/sp_Plaster.jpg using Guid(84bbe8a01fc77134db415788c97f1f35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2faa3b40500ad0f8bebfa289556b1aef') in 0.011641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Arts/预览图/禅意盆景 (17).jpg
+  artifactKey: Guid(067a375aaf078eb4585b9b45fade2266) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/预览图/禅意盆景 (17).jpg using Guid(067a375aaf078eb4585b9b45fade2266) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5c92a86f697557b79b6cf1249925e5ac') in 0.011513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e33dfdfba2a73b3adb4454c888bf57ff') in 0.003501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Arts/Textures/3.fbm/sp_Weed2B.jpg
+  artifactKey: Guid(76f78a8481164da44b8bd7d559a0dbbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/3.fbm/sp_Weed2B.jpg using Guid(76f78a8481164da44b8bd7d559a0dbbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9fa650e2968aba50b8aa52b646410d5d') in 0.011239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Arts/预览图/禅意盆景 (16).jpg
+  artifactKey: Guid(89a00a6812b66c044a57ef92c6c7e8d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/预览图/禅意盆景 (16).jpg using Guid(89a00a6812b66c044a57ef92c6c7e8d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3f2519e36c4b7698862e5cdba01492a6') in 0.011536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Arts/Textures/3.fbm/sp_PondWater.jpg
+  artifactKey: Guid(562ded7bcc54934488411ff6030db150) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/3.fbm/sp_PondWater.jpg using Guid(562ded7bcc54934488411ff6030db150) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2ff28e62b6a150cb5a923bc8cceb9a06') in 0.010443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2a104614d62dfcb19def901632643756') in 0.004320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Arts/Textures/3.fbm/sp_ColumnB.jpg
+  artifactKey: Guid(b307cb3d19815fd4faa543786414fab4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/3.fbm/sp_ColumnB.jpg using Guid(b307cb3d19815fd4faa543786414fab4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '19f06fb283875884811bf06a86562571') in 0.010094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Arts/Textures/3.fbm/sp_Grass1.jpg
+  artifactKey: Guid(8d25acebda89bd949a9a2d68931c6afc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/3.fbm/sp_Grass1.jpg using Guid(8d25acebda89bd949a9a2d68931c6afc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5c613995d0bb156f7b995c5e938837d5') in 0.009858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/TextMesh Pro/Fonts/字魂柳叶楷书(商用需授权).ttf
+  artifactKey: Guid(8c725cd470d76af4fa081796e8e72513) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Fonts/字魂柳叶楷书(商用需授权).ttf using Guid(8c725cd470d76af4fa081796e8e72513) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '37cd01e02fbfbb2185f7518cf739afd9') in 0.008082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Arts/Textures/人物/xiucai1.psd
+  artifactKey: Guid(01805930c97d5884f9a88c43da4584a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/人物/xiucai1.psd using Guid(01805930c97d5884f9a88c43da4584a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '24074619c92575fcd49d91565bae4360') in 0.011384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Arts/Textures/院子.fbm/sp_PondBase.jpg
+  artifactKey: Guid(51b9626f065511d4e81964b19951e0b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/院子.fbm/sp_PondBase.jpg using Guid(51b9626f065511d4e81964b19951e0b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a21eebff849d05ac7db4c64b95e4e714') in 0.011552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Arts/Textures/院子.fbm/sp_Pave1.jpg
+  artifactKey: Guid(f6249a3f1c891d546b56ff3931e92edc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/院子.fbm/sp_Pave1.jpg using Guid(f6249a3f1c891d546b56ff3931e92edc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2e092e3f0bf94430dcaa8a71b15e51e4') in 0.010780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Arts/Textures/人物/秀才.tga
+  artifactKey: Guid(3416c6d3d167dfe4bb9d4914e1171c3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/人物/秀才.tga using Guid(3416c6d3d167dfe4bb9d4914e1171c3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6039b80f3fdcd8a0550fc4338b87b8a1') in 0.010221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Arts/Textures/院子.fbm/sp_BarkB.jpg
+  artifactKey: Guid(a9d98150f00500440a39d366725fb649) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/院子.fbm/sp_BarkB.jpg using Guid(a9d98150f00500440a39d366725fb649) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ad5c2530d5d74fe6208f37122ff0ade7') in 0.010473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Arts/Textures/院子.fbm/sp_Plaster2.jpg
+  artifactKey: Guid(99e808a836c7c114480a36e2fc1225fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/院子.fbm/sp_Plaster2.jpg using Guid(99e808a836c7c114480a36e2fc1225fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c111ff59680641dcc49dca5cf9e3286b') in 0.010089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Arts/Textures/院子.fbm/sp_Rocks2.jpg
+  artifactKey: Guid(06ddf65b835da634da139e9b108386cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/院子.fbm/sp_Rocks2.jpg using Guid(06ddf65b835da634da139e9b108386cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '896bab9b857f1e35f34fc06882971ad1') in 0.010892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Arts/Textures/室内/chinesisch_wang_ximeng_-_a_thousand_li_of_river_bridgekl1-1680x671.jpg
+  artifactKey: Guid(7e6d8fd9ff59bce4a86dd2cd1540a5d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/室内/chinesisch_wang_ximeng_-_a_thousand_li_of_river_bridgekl1-1680x671.jpg using Guid(7e6d8fd9ff59bce4a86dd2cd1540a5d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '631c9257836cebf7d454c11db287322d') in 0.011823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Arts/Textures/室内/모란문_tint0x9B3030FF.png
+  artifactKey: Guid(bbd1749a86387c94798ad279531f90e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/室内/모란문_tint0x9B3030FF.png using Guid(bbd1749a86387c94798ad279531f90e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fd10ed977eee79135ca62009a6fadb8a') in 0.010610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Arts/Textures/3.fbm/sp_roof.jpg
+  artifactKey: Guid(473ceb5f22d2be44ca1a695cd4587c76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/3.fbm/sp_roof.jpg using Guid(473ceb5f22d2be44ca1a695cd4587c76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ac5bae06c71cd9c28c47e92a029c0404') in 0.010670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Arts/Textures/室内/1669[1].jpg
+  artifactKey: Guid(c91121fd2d5ca704eb41c96818a4a801) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/室内/1669[1].jpg using Guid(c91121fd2d5ca704eb41c96818a4a801) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e07c7cd6eb9a1f10cbc2be9bceb4292b') in 0.009585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Arts/Textures/室内/나무텍스쳐 4 (2)_tint0x5E4E43FF.png
+  artifactKey: Guid(a71c3be7d52c2e848bff9b42e9c5aff7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/室内/나무텍스쳐 4 (2)_tint0x5E4E43FF.png using Guid(a71c3be7d52c2e848bff9b42e9c5aff7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4dc2d7324577bbfe171c9d9d9532ca61') in 0.009877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Arts/Textures/室内/무제-1_tint0xDDD2BAFF.png
+  artifactKey: Guid(1805678f8be8ebb4cb3e55e67a50571e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/室内/무제-1_tint0xDDD2BAFF.png using Guid(1805678f8be8ebb4cb3e55e67a50571e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '762e9c2038ba070b997bc2747a32f300') in 0.010973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Arts/Textures/院子.fbm/sp_Grass2.jpg
+  artifactKey: Guid(14bdfdcf1ca92964d8a01a2850ad58eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/院子.fbm/sp_Grass2.jpg using Guid(14bdfdcf1ca92964d8a01a2850ad58eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c65a10018f2836c479edbb061c79c86') in 0.010631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Arts/Textures/院子.fbm/sp_Grass2B.jpg
+  artifactKey: Guid(24b66d66a2b28a94e96614c17fd49caa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/院子.fbm/sp_Grass2B.jpg using Guid(24b66d66a2b28a94e96614c17fd49caa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3813cfb74c9300a4667d3fffdb4d107f') in 0.010453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Arts/Textures/室内/Black Pen 1_tint0xF0F0EBFF.png
+  artifactKey: Guid(92a5ee9d71bcd654eb8bb5c8d6bb3197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/室内/Black Pen 1_tint0xF0F0EBFF.png using Guid(92a5ee9d71bcd654eb8bb5c8d6bb3197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4a91f336fd397f1d826a2ba733740373') in 0.011579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Arts/Textures/室内/257B3A375538E8A505.jpg
+  artifactKey: Guid(e8ebb4dd561e33747b67591b50f7cd26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/室内/257B3A375538E8A505.jpg using Guid(e8ebb4dd561e33747b67591b50f7cd26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '977730fd18f02d20edf3395fc89bab4e') in 0.010776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Arts/Textures/3.fbm/sp_lilypadB.jpg
+  artifactKey: Guid(7cc7d1da5f6fdef4faf3dc06ede80eb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/3.fbm/sp_lilypadB.jpg using Guid(7cc7d1da5f6fdef4faf3dc06ede80eb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b50c34473f215121571ce9323acbb2ed') in 0.010323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Arts/Textures/院子.fbm/sp_EdgeStoneB.jpg
+  artifactKey: Guid(00cec022d2627e14ba1e69b740f2636a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/院子.fbm/sp_EdgeStoneB.jpg using Guid(00cec022d2627e14ba1e69b740f2636a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e7d1343492c6cdc6a71edefb1e56f236') in 0.010663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Arts/Textures/院子.fbm/sp_PineBranchA.jpg
+  artifactKey: Guid(81a0a6f374ed77b40bad616a4c040c5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/院子.fbm/sp_PineBranchA.jpg using Guid(81a0a6f374ed77b40bad616a4c040c5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ce555892871f7ceeb36a1175da32826f') in 0.009440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Arts/Textures/3.fbm/sp_screenB.jpg
+  artifactKey: Guid(4ef757623b03548448a1b1c0243ef9e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/3.fbm/sp_screenB.jpg using Guid(4ef757623b03548448a1b1c0243ef9e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6fdff954d37075e3e75d59cfb878979a') in 0.010260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Arts/Textures/院子.fbm/sp_Ivy2.jpg
+  artifactKey: Guid(3497b5534b198a84dbb8c9415d4bd701) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/院子.fbm/sp_Ivy2.jpg using Guid(3497b5534b198a84dbb8c9415d4bd701) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd52b7dc4edc8c6f9fdcefd258646293e') in 0.009702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Arts/Textures/院子.fbm/sp_Ivy.jpg
+  artifactKey: Guid(6d54550e059cbc3489fca3c544e195b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/院子.fbm/sp_Ivy.jpg using Guid(6d54550e059cbc3489fca3c544e195b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '196589f99670f6de16d17c1016d0ef16') in 0.009938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Arts/Textures/院子.fbm/sp_Bark.jpg
+  artifactKey: Guid(06db8bb3f6d490e489e23cdf81b7d161) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/院子.fbm/sp_Bark.jpg using Guid(06db8bb3f6d490e489e23cdf81b7d161) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aeb7b72e5a06ab4651b1b272299affef') in 0.009448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Arts/Textures/室内/나무텍스쳐 4_tint0x6D6054FF.png
+  artifactKey: Guid(87ddeb400514d4f42863101eed35bcab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/室内/나무텍스쳐 4_tint0x6D6054FF.png using Guid(87ddeb400514d4f42863101eed35bcab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '191c0613f98fb5beced5b9f514f99248') in 0.012542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Arts/Textures/室内/소품3_tint0x69725DFF.png
+  artifactKey: Guid(acdf411495b9d1f43a6034448527571d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/室内/소품3_tint0x69725DFF.png using Guid(acdf411495b9d1f43a6034448527571d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '65bcfdf9de2cfbb163cf7a4ff7660fb6') in 0.010157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Arts/Textures/院子.fbm/sp_PondWater.jpg
+  artifactKey: Guid(b58a37bba4080c64788c2ab44803e509) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/院子.fbm/sp_PondWater.jpg using Guid(b58a37bba4080c64788c2ab44803e509) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1b603d33d87ef185e2a3316c401df643') in 0.010615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Arts/Textures/院子.fbm/sp_RocksS.jpg
+  artifactKey: Guid(46df6b55ad22e0b41a6b2980fa902dca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/院子.fbm/sp_RocksS.jpg using Guid(46df6b55ad22e0b41a6b2980fa902dca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b057500664797e0a563171aaf6439497') in 0.012760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Arts/Textures/室内/Formica Beige_tint0x9A9D80FF.jpg
+  artifactKey: Guid(1807683848126214a87309aeae7acc3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/室内/Formica Beige_tint0x9A9D80FF.jpg using Guid(1807683848126214a87309aeae7acc3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fa905c6d469f44fedad8e8d160570862') in 0.011010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Arts/Textures/3.fbm/sp_lilypadA.jpg
+  artifactKey: Guid(9712eefdfb0c5ea41ac70e00262759f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/3.fbm/sp_lilypadA.jpg using Guid(9712eefdfb0c5ea41ac70e00262759f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '99cafa7cf09f4a9be05461cb772f44f7') in 0.011071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Arts/Textures/3.fbm/sp_EdgeStoneB.jpg
+  artifactKey: Guid(6e34bef00b3bae642afc8a5315b10d30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/3.fbm/sp_EdgeStoneB.jpg using Guid(6e34bef00b3bae642afc8a5315b10d30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bbb1f03bd9588233ae31e394690682d3') in 0.010157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Arts/Textures/院子.fbm/sp_Grass1B.jpg
+  artifactKey: Guid(8cfa7f76bf38dce44abaa8e20aab6f58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/院子.fbm/sp_Grass1B.jpg using Guid(8cfa7f76bf38dce44abaa8e20aab6f58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1574fd83a6d6e9552ad2a93a88479ab1') in 0.011625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Arts/Textures/3.fbm/sp_PineB.jpg
+  artifactKey: Guid(19771d4ecb8018947a0852c4fcec6055) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/3.fbm/sp_PineB.jpg using Guid(19771d4ecb8018947a0852c4fcec6055) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e10479cde7f3890e1290859bca40547e') in 0.010180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Arts/Textures/室内/소품3_tint0xDEDCD3FF.png
+  artifactKey: Guid(27012fbebe4d8c949a7ce256c465a26f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/室内/소품3_tint0xDEDCD3FF.png using Guid(27012fbebe4d8c949a7ce256c465a26f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1d7406a8943b64a03256d1d1f0fa4df4') in 0.010861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c4e88b1373a26834dad8360977befc0c') in 0.005325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Arts/预览图/禅意盆景 (12).jpg
+  artifactKey: Guid(8d80ef45817b9b746934fb674325cad0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/预览图/禅意盆景 (12).jpg using Guid(8d80ef45817b9b746934fb674325cad0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ecd43a20d4741c052e948115f7e4881d') in 0.011683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Arts/Textures/院子.fbm/sp_EdgeStones2.jpg
+  artifactKey: Guid(71c7af7beb3f7884e8fc23bf5edd64af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/院子.fbm/sp_EdgeStones2.jpg using Guid(71c7af7beb3f7884e8fc23bf5edd64af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '14d492e2e4e76e1dc63de6b99d6733e9') in 0.011317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.090671 seconds.
+  path: Assets/Arts/Textures/院子.fbm/sp_VineBark.jpg
+  artifactKey: Guid(6bbba384cda218b4aa2fe1cc0e1f3ecc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/院子.fbm/sp_VineBark.jpg using Guid(6bbba384cda218b4aa2fe1cc0e1f3ecc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '37b9a08f57bbf94c13d4559d0a182c86') in 0.010778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat
+  artifactKey: Guid(22262639920f43d6be32430e4e58350d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat using Guid(22262639920f43d6be32430e4e58350d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3293f0c57a7ea5405074f4f5e3f9b47e') in 0.004555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab
+  artifactKey: Guid(a6e39ced0ea046bcb636c3f0b2e2a745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab using Guid(a6e39ced0ea046bcb636c3f0b2e2a745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bfd72ba60943bab6a10357264ed2cf11') in 0.050357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs
+  artifactKey: Guid(2d687537154440a3913a9a3c7977978c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs using Guid(2d687537154440a3913a9a3c7977978c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9e2fa50b39743e7a539efd0da8351038') in 0.002498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity
+  artifactKey: Guid(54e994244b4b467e8583cf2da6dcc716) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity using Guid(54e994244b4b467e8583cf2da6dcc716) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c755924fc74154bc0c62940477c9c120') in 0.001379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity
+  artifactKey: Guid(84ed36ad77dd4956b2ffe3769f759879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity using Guid(84ed36ad77dd4956b2ffe3769f759879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a866a5bb092316704b2ad515bb4514f3') in 0.001261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs
+  artifactKey: Guid(a4b6f99e8bc54541bbd149b014ff441c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs using Guid(a4b6f99e8bc54541bbd149b014ff441c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7f211ee4a206090aab8b380b02f62afa') in 0.001726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
+  artifactKey: Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf using Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9e8b5da3bcb3bb89ae6e567349e01310') in 0.005698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs
+  artifactKey: Guid(a73109742c8d47ac822895a473300c29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs using Guid(a73109742c8d47ac822895a473300c29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5160e2b0851ce96fe4dee4111a0f2a47') in 0.002156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab
+  artifactKey: Guid(b06f0e6c1dfa4356ac918da1bb32c603) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab using Guid(b06f0e6c1dfa4356ac918da1bb32c603) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8919852af02a93af2eeeabe48251cb12') in 0.032986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs
+  artifactKey: Guid(43bcd35a1c0c40ccb6d472893fe2093f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs using Guid(43bcd35a1c0c40ccb6d472893fe2093f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '09ef7a14e784b9a5ebd9714801cb47fb') in 0.002367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs
+  artifactKey: Guid(83680ab1a69f4102ac67d1459fe76e1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs using Guid(83680ab1a69f4102ac67d1459fe76e1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '52ab9f66bcef3ca1d80820514579652d') in 0.002441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs
+  artifactKey: Guid(ac1eb05af6d391b4eb0f4c070a99f1d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs using Guid(ac1eb05af6d391b4eb0f4c070a99f1d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '25091ecc1a1cc1c2915e4ca932101b9e') in 0.001903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity
+  artifactKey: Guid(39a1fa96ad2a449b908fca29d4297a74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity using Guid(39a1fa96ad2a449b908fca29d4297a74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b8d892a3a3b9216e0456138cce546ba2') in 0.002801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs
+  artifactKey: Guid(dc20866c0d5e413ab7559440e15333ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs using Guid(dc20866c0d5e413ab7559440e15333ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f98fbdcb1e0d5788fca899ff87d807d2') in 0.001854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs
+  artifactKey: Guid(e32c266ee6204b21a427753cb0694c81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs using Guid(e32c266ee6204b21a427753cb0694c81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ced7f1118d9b272d71aa48c1f719db8f') in 0.001833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+  artifactKey: Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF using Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f5990bf08614e351c527964881d0dc6c') in 0.005205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity
+  artifactKey: Guid(337f92480dd24675aae9e79210fb1ad9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity using Guid(337f92480dd24675aae9e79210fb1ad9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e1aa79833f42bd3efe7e1918ca8c3075') in 0.001721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Arts/Textures/院子.fbm/sp_screenB.jpg
+  artifactKey: Guid(4617f380480890a49964970862ca872e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/院子.fbm/sp_screenB.jpg using Guid(4617f380480890a49964970862ca872e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f8619d3b88d2236ab55320a12dba68f5') in 0.010357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Arts/Textures/院子.fbm/sp_WeedA.jpg
+  artifactKey: Guid(e138ec3153bc96a4d8f1f8dac9d3005d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/院子.fbm/sp_WeedA.jpg using Guid(e138ec3153bc96a4d8f1f8dac9d3005d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '14610d9b02ca815c939e5b213369311f') in 0.011058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
+  artifactKey: Guid(a0fc465d6cf04254a2938578735e2383) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png using Guid(a0fc465d6cf04254a2938578735e2383) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c38fbf98410b1ffa53362ef582b7cb39') in 0.017497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity
+  artifactKey: Guid(f9b4c22e15cff344ba9fc6542a58dd07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity using Guid(f9b4c22e15cff344ba9fc6542a58dd07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '34dea7078a141f750b2f67d70f4deae7') in 0.001472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Arts/Textures/院子.fbm/sp_lilypadB.jpg
+  artifactKey: Guid(5da4a855e8f838e4d81aa7333c8358d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/院子.fbm/sp_lilypadB.jpg using Guid(5da4a855e8f838e4d81aa7333c8358d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'edc15f0b0c2704ad66eb9d81e74fdfeb') in 0.010562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity
+  artifactKey: Guid(3e2e4d7b0bed4cf9ab827e9f32448f69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity using Guid(3e2e4d7b0bed4cf9ab827e9f32448f69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f409bf6b597fa46c32763e0ce4bdb2c0') in 0.001466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Arts/Textures/院子.fbm/sp_screen3.jpg
+  artifactKey: Guid(cda0a39e51ab4104fa4303025986a44c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/院子.fbm/sp_screen3.jpg using Guid(cda0a39e51ab4104fa4303025986a44c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6c83461124d6f7e1913386506e6f4efd') in 0.009861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs
+  artifactKey: Guid(f7cfa58e417a46ea8889989684c2522e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs using Guid(f7cfa58e417a46ea8889989684c2522e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '45e99c33579496d8593f26e6bf2c4a22') in 0.002140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity
+  artifactKey: Guid(349f38d3606449708c7340d26740e1e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity using Guid(349f38d3606449708c7340d26740e1e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1e692b1a2a63425a391e93c5b084ac6f') in 0.001267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs
+  artifactKey: Guid(d412675cfb3441efa3bf8dcd9b7624dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs using Guid(d412675cfb3441efa3bf8dcd9b7624dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5ebbc4d8c4ad175ce0cceb8e3b1b7e8a') in 0.001940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs
+  artifactKey: Guid(91b8ba3d52e041fab2d0e0f169855539) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs using Guid(91b8ba3d52e041fab2d0e0f169855539) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '34aca707706e4f145d8d053a1e197b85') in 0.003146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.286843 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg
+  artifactKey: Guid(85ac55597b97403c82fc6601a93cf241) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg using Guid(85ac55597b97403c82fc6601a93cf241) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '94d8de201338331527b9ca9a87a166a8') in 0.009694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Arts/Textures/植物盆栽/Materials/trunk1.mat
+  artifactKey: Guid(f71e673f470094243952c4308a456c8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/Materials/trunk1.mat using Guid(f71e673f470094243952c4308a456c8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0af70245ebe4c3fb35691e6fbef8be66') in 0.004389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Arts/Textures/植物盆栽/禅意盆景 (10).fbm/Material__1.jpg
+  artifactKey: Guid(47e15dc89dc08874ebdf5129470598f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/禅意盆景 (10).fbm/Material__1.jpg using Guid(47e15dc89dc08874ebdf5129470598f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3cfb826c6ddd749df71f3f982af12972') in 0.011051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Arts/Textures/植物盆栽/禅意盆景 (20).fbm/Mat3d66_543255_5_1.jpg
+  artifactKey: Guid(34547fdc5ce21054e9da972e46a64d58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/禅意盆景 (20).fbm/Mat3d66_543255_5_1.jpg using Guid(34547fdc5ce21054e9da972e46a64d58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cc52dddb4cc4d790aa721c9d620af8d2') in 0.011957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Arts/Textures/人物/t-9731-1-264/xiucai1.psd
+  artifactKey: Guid(a425ebfbe7204544894f38f84422322c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/人物/t-9731-1-264/xiucai1.psd using Guid(a425ebfbe7204544894f38f84422322c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2888928a6976c795c90c158be0f1f6b9') in 0.009870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Arts/Textures/植物盆栽/Materials/Mat3d66_550400_23_1.mat
+  artifactKey: Guid(dc03838fa5c7fe241a8b1e7ce92624af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/Materials/Mat3d66_550400_23_1.mat using Guid(dc03838fa5c7fe241a8b1e7ce92624af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e30eade2468a7f2ed1cdc4df69f3ec33') in 0.004054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Arts/Textures/植物盆栽/Materials/archmodels66_011_002a1.mat
+  artifactKey: Guid(607f60f3dbd9cd848942b0723c10e822) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/Materials/archmodels66_011_002a1.mat using Guid(607f60f3dbd9cd848942b0723c10e822) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a734f09e596139a2de176dc69cf1ec98') in 0.003667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Arts/Textures/植物盆栽/Materials/xiadele_Material__7.mat
+  artifactKey: Guid(e8dba603ac3cdd446b4afd04bfa9ceb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/Materials/xiadele_Material__7.mat using Guid(e8dba603ac3cdd446b4afd04bfa9ceb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a273a3d8f103abef0e61f8be6f45ebe6') in 0.003110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Arts/Textures/植物盆栽/禅意盆景 (11).fbm/xiadele_Material__3.jpg
+  artifactKey: Guid(84d76b2a6cf01f244a472df223ba5bd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/禅意盆景 (11).fbm/xiadele_Material__3.jpg using Guid(84d76b2a6cf01f244a472df223ba5bd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3265404d4e634af9ab85613708ce0384') in 0.010900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Arts/Textures/植物盆栽/Materials/xiadele_Material__3.mat
+  artifactKey: Guid(71a1ac480005c1141abd1a96a90afa6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/Materials/xiadele_Material__3.mat using Guid(71a1ac480005c1141abd1a96a90afa6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6700fcaeb3f1d9dfdb933633bfc53dd6') in 0.004972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Arts/Textures/植物盆栽/禅意盆景 (12).fbm/st1.jpg
+  artifactKey: Guid(7ddee09da3653c44fac2e64d5d0527a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/禅意盆景 (12).fbm/st1.jpg using Guid(7ddee09da3653c44fac2e64d5d0527a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b6db1e40f6e3691703fa43676411437d') in 0.009675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000575 seconds.
+  path: Assets/Arts/Textures/植物盆栽/禅意盆景 (2).fbm/archmodels66_011_002a1.jpg
+  artifactKey: Guid(f912ae1033b5b7e479765036d9c1ff5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/禅意盆景 (2).fbm/archmodels66_011_002a1.jpg using Guid(f912ae1033b5b7e479765036d9c1ff5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e584c502ad34f00296563112a83022f7') in 0.010634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Arts/Textures/植物盆栽/禅意盆景 (2).fbm/Mat3d66_635620_10_1.jpg
+  artifactKey: Guid(b56845b85483613449097a6a8971f9b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/禅意盆景 (2).fbm/Mat3d66_635620_10_1.jpg using Guid(b56845b85483613449097a6a8971f9b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c7da6093ba27cc2d90e7d87f3a6ba43f') in 0.010759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Arts/Textures/植物盆栽/禅意盆景 (3).fbm/xiadele_VR_____21ad1.jpg
+  artifactKey: Guid(cd05f993d1ea33d4b96249f0bcc284a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/禅意盆景 (3).fbm/xiadele_VR_____21ad1.jpg using Guid(cd05f993d1ea33d4b96249f0bcc284a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2df2df83bda2d697c4f83e032d4d8e63') in 0.011794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Arts/Textures/植物盆栽/Materials/xiadele_Material__4.mat
+  artifactKey: Guid(0dce8d83f9a83554ba9c63aea2ab1f32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/Materials/xiadele_Material__4.mat using Guid(0dce8d83f9a83554ba9c63aea2ab1f32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1abe8722a284e5e2d97850ac01f41b46') in 0.003730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat
+  artifactKey: Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat using Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1a1e027f85864d187682a09439e059c2') in 0.021195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Arts/Textures/植物盆栽/Materials/Material__4.mat
+  artifactKey: Guid(a46e83de450fbf24d84da05428fb1057) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/Materials/Material__4.mat using Guid(a46e83de450fbf24d84da05428fb1057) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8f2ef630ec3bb7f7794a5330b8f7787a') in 0.004680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Arts/Textures/植物盆栽/Materials/xiadele_02___Defaultfe1.mat
+  artifactKey: Guid(a042552255459f045a280d0a5fff9b02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/Materials/xiadele_02___Defaultfe1.mat using Guid(a042552255459f045a280d0a5fff9b02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a0cb94444f7247906c20f7dae366f219') in 0.003098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd
+  artifactKey: Guid(2b5e9ae96c5644d8bae932f8b4ca68a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd using Guid(2b5e9ae96c5644d8bae932f8b4ca68a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6e36e8413d5bd6880e5f28446afc9cf5') in 0.011072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Arts/Textures/植物盆栽/Materials/FL_1.mat
+  artifactKey: Guid(940803039f5bead4aaa52b8ecd7175de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/Materials/FL_1.mat using Guid(940803039f5bead4aaa52b8ecd7175de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '430d1a271c1ff9fb361c3425b9dc4994') in 0.003652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Arts/Textures/植物盆栽/Materials/Mat3d66_587530_2_1.mat
+  artifactKey: Guid(76295a0c1b6d2d645aa2738521cf7d85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/Materials/Mat3d66_587530_2_1.mat using Guid(76295a0c1b6d2d645aa2738521cf7d85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7d54f76cf7fb437b5de43f12f74a1289') in 0.004245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Arts/Textures/植物盆栽/禅意盆景 (10).fbm/Mat3d66_587530_4_1.jpg
+  artifactKey: Guid(045caf55e6d313a4888a16f26782747c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/禅意盆景 (10).fbm/Mat3d66_587530_4_1.jpg using Guid(045caf55e6d313a4888a16f26782747c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ce10c2a3e9fad1e5e8eecd6bdef9b48c') in 0.010533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Arts/Textures/植物盆栽/Materials/xiadele_Material__6.mat
+  artifactKey: Guid(73f5e6828a9486c45957c360cc7945f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/Materials/xiadele_Material__6.mat using Guid(73f5e6828a9486c45957c360cc7945f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '388d3c5573d08c665c54da9c71917929') in 0.003238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg
+  artifactKey: Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg using Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2cb581f16135d93483d53d5bb87a945e') in 0.009835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2be788493e1cda5c8ead1e1543dda818') in 0.023832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Arts/Textures/植物盆栽/禅意盆景 (12).fbm/Arch41_031_mat_1.jpg
+  artifactKey: Guid(fce4e8118ffb3a74c8b0a50ed86deb1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/禅意盆景 (12).fbm/Arch41_031_mat_1.jpg using Guid(fce4e8118ffb3a74c8b0a50ed86deb1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e71d3a86aa11364280a5da84041640d1') in 0.011073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
+  artifactKey: Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg using Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cfbef31ee6efd96e39220785649c25d6') in 0.011327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Arts/Textures/人物/贴图/_desktop.ini
+  artifactKey: Guid(769584b7f69721846906dd1e09f171ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/人物/贴图/_desktop.ini using Guid(769584b7f69721846906dd1e09f171ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ccff5bd5e5aaa524494f889237bb74df') in 0.001458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
+  artifactKey: Guid(6eb184de103d4b3f812b38561065192f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg using Guid(6eb184de103d4b3f812b38561065192f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1049041a63da6f250b0b80f4e1da0f84') in 0.010485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Arts/Textures/植物盆栽/禅意盆景 (1).fbm/leaf1.png
+  artifactKey: Guid(20b8606725368b84a88d6d8bc33f7612) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/禅意盆景 (1).fbm/leaf1.png using Guid(20b8606725368b84a88d6d8bc33f7612) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '42f1ee58de17d3266db11694086a0263') in 0.010632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eb337101b70f4adc028958697cb2c009') in 0.017387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Arts/Textures/植物盆栽/Materials/xiadele_Mat3d66_543641_35_1_2.mat
+  artifactKey: Guid(657b8a5a26680f7459ce37cf1de1930d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/Materials/xiadele_Mat3d66_543641_35_1_2.mat using Guid(657b8a5a26680f7459ce37cf1de1930d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f8b4ccdf9c020e6afdb0315df3c549fd') in 0.005408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Arts/Textures/植物盆栽/Materials/Mat3d66_635620_9_1.mat
+  artifactKey: Guid(f47476bea90ece44a9a9805a2f9f6c22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/Materials/Mat3d66_635620_9_1.mat using Guid(f47476bea90ece44a9a9805a2f9f6c22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ef649146fecac45549677794e512c466') in 0.003412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Arts/Textures/植物盆栽/Materials/xiadele_Material__1.mat
+  artifactKey: Guid(766f3281bf8d62d4a99271154e978fa5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/Materials/xiadele_Material__1.mat using Guid(766f3281bf8d62d4a99271154e978fa5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '38692365a4acef34749f6c9f787be31a') in 0.003687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat
+  artifactKey: Guid(f2dcf029949142e28b974630369c8b4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat using Guid(f2dcf029949142e28b974630369c8b4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '235875a3e69ba577b1966056c7b11d90') in 0.016652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset
+  artifactKey: Guid(4c86a3366cd840348ebe8dc438570ee4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset using Guid(4c86a3366cd840348ebe8dc438570ee4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7c5913eee4780f5788dd7ab84c72aa6a') in 0.005176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Arts/Textures/植物盆栽/Materials/g1.mat
+  artifactKey: Guid(49088e3dfb9763344bc5d93807b0672b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/Materials/g1.mat using Guid(49088e3dfb9763344bc5d93807b0672b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '92dd196506b5489139067ea57db35c43') in 0.003230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Arts/Textures/植物盆栽/禅意盆景 (17).fbm/xiadele_Mat3d66_543641_33_1.jpg
+  artifactKey: Guid(ffcd721652d48004da49cb97ac17be48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/禅意盆景 (17).fbm/xiadele_Mat3d66_543641_33_1.jpg using Guid(ffcd721652d48004da49cb97ac17be48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '31e009e59ff14927a3a1225ca8d6d018') in 0.011135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Arts/Textures/植物盆栽/禅意盆景 (19).fbm/Mat3d66_556471_12_1.jpg
+  artifactKey: Guid(fc9335d8e83a2864886769f612114b12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/禅意盆景 (19).fbm/Mat3d66_556471_12_1.jpg using Guid(fc9335d8e83a2864886769f612114b12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dd6ebd2eda79146c404ed824dfed264e') in 0.011717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Arts/Textures/植物盆栽/Materials/hpen1.mat
+  artifactKey: Guid(312f68f90e41c5e49ac489e417a4fdc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/Materials/hpen1.mat using Guid(312f68f90e41c5e49ac489e417a4fdc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9fc879dd84bc7bccecab6f020614e8c1') in 0.003651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Arts/Textures/植物盆栽/Materials/Material__1.mat
+  artifactKey: Guid(042b6a636968d9b47a73c135ceeb063c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/Materials/Material__1.mat using Guid(042b6a636968d9b47a73c135ceeb063c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7f5b996af3f19b61ced1f32ce0cc26d6') in 0.004803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Arts/Textures/植物盆栽/Materials/xiadele_Mat3d66_543641_34_1_1.mat
+  artifactKey: Guid(a7e7193c7fc4c46409827649296ce0d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/Materials/xiadele_Mat3d66_543641_34_1_1.mat using Guid(a7e7193c7fc4c46409827649296ce0d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cf0ac1f1c2f611cbc2793319499c79be') in 0.004729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Arts/Textures/植物盆栽/禅意盆景 (17).fbm/TR1.jpg
+  artifactKey: Guid(d9851f27935ebd343b68d64f29cc4d9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/禅意盆景 (17).fbm/TR1.jpg using Guid(d9851f27935ebd343b68d64f29cc4d9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e908d21ffcd1beae67a1dfcd7f1adffa') in 0.010304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Arts/Textures/植物盆栽/禅意盆景 (19).fbm/Mat3d66_556471_10_1.jpg
+  artifactKey: Guid(39dd8e9f579f88f40b0d29fb2c1f2e1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/禅意盆景 (19).fbm/Mat3d66_556471_10_1.jpg using Guid(39dd8e9f579f88f40b0d29fb2c1f2e1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '87eebfc415683bc1a67a85f5aebee01e') in 0.010504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset
+  artifactKey: Guid(5cf8ae092ca54931b443bec5148f3c59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset using Guid(5cf8ae092ca54931b443bec5148f3c59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '45b7da50d60a1f60ea1911e36378c1c0') in 0.003114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3756daae239ea90a3761566309ef6b99') in 0.014535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Arts/Textures/植物盆栽/禅意盆景 (12).fbm/hpen1.jpg
+  artifactKey: Guid(4a0bd6738ac58764e822cf514b54ad48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/禅意盆景 (12).fbm/hpen1.jpg using Guid(4a0bd6738ac58764e822cf514b54ad48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c267d4e7c2d4d34f23ca83f9d9a257a') in 0.010224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Arts/Textures/植物盆栽/禅意盆景 (1).fbm/trunk1.png
+  artifactKey: Guid(40b7fe8a9a289f14784f1cc767884ec8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/禅意盆景 (1).fbm/trunk1.png using Guid(40b7fe8a9a289f14784f1cc767884ec8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b7f599ded46cb5c5c04125a961c70b33') in 0.010010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '079b2c7bdde6daaf4d647deefcb7bee5') in 0.006359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png
+  artifactKey: Guid(c76d18757a194d618355f05f815cb0a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png using Guid(c76d18757a194d618355f05f815cb0a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '116c55e639ca4b1b817347a3b361079e') in 0.010778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Arts/Textures/植物盆栽/Materials/xiadele_Mat3d66_543641_35_1_1.mat
+  artifactKey: Guid(0ab96b212d62b8b42b52af39bc33f2fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/Materials/xiadele_Mat3d66_543641_35_1_1.mat using Guid(0ab96b212d62b8b42b52af39bc33f2fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '03d7900cdf161d92d5633cc6d8510407') in 0.003630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Arts/Textures/植物盆栽/Materials/vray_vetka1.mat
+  artifactKey: Guid(727547f5d90d4444b9ed33c282e23303) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/Materials/vray_vetka1.mat using Guid(727547f5d90d4444b9ed33c282e23303) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7ba036017c22ab9965fa6c3ff2da460f') in 0.004289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Arts/Textures/植物盆栽/禅意盆景 (13).fbm/Mat3d66_550400_23_1.jpg
+  artifactKey: Guid(861304ccedfe2ba44a62889d51d001c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/植物盆栽/禅意盆景 (13).fbm/Mat3d66_550400_23_1.jpg using Guid(861304ccedfe2ba44a62889d51d001c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5c31fef29127e00bb6bf52794cb26963') in 0.010236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset
+  artifactKey: Guid(69a525efa7e6472eab268f6ea605f06e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset using Guid(69a525efa7e6472eab268f6ea605f06e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '55996cbc8d813e57808cf358ddaa04f2') in 0.002775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Arts/Textures/人物/t-9731-1-264/秀才待机.max
+  artifactKey: Guid(a3945317cf73ecb48ad6e10b9c7dbf79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/人物/t-9731-1-264/秀才待机.max using Guid(a3945317cf73ecb48ad6e10b9c7dbf79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '46e7275968f70e8c14637a2b3b31d2b8') in 0.007734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.016448 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat
+  artifactKey: Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat using Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '64bd28c5830d3dd2a224c94f69b2281a') in 0.017342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Arts/Textures/人物/t-9731-1-264/贴图/秀才.tga
+  artifactKey: Guid(029a733b1718c624cad604116e13371f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures/人物/t-9731-1-264/贴图/秀才.tga using Guid(029a733b1718c624cad604116e13371f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c31c40f233c688b87adcf94b70926db3') in 0.010501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset
+  artifactKey: Guid(14aa93acbb234d16aaef0e8b46814db6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset using Guid(14aa93acbb234d16aaef0e8b46814db6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b9f5185d67c4f2478a5c588ba4c01bb4') in 0.004328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b8f74c62dbe4f6d054e52dbb729c22dc') in 0.023636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat
+  artifactKey: Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat using Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9d9e907a5fabe00b233749fe06e08b7e') in 0.018323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (1.6 KB). Loaded Objects now: 3621.
+Memory consumption went from 84.0 MB to 84.0 MB.
+Total: 4.161125 ms (FindLiveObjects: 0.125084 ms CreateObjectMapping: 0.045875 ms MarkObjects: 3.966416 ms  DeleteObjects: 0.023375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

@@ -1,0 +1,519 @@
+Unity Editor version:    2022.3.8f1c1 (4ec8ee1b2212)
+Branch:                  2022.3/china_unity/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.4 (Build 24E248)
+Darwin version:          24.4.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.8f1c1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+/Users/ming/Downloads/ui
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+60139
+Successfully changed project path to: /Users/ming/Downloads/ui
+/Users/ming/Downloads/ui
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8617364544] Host "[IP] 10.130.239.131 [Port] 0 [Flags] 2 [Guid] 4049334745 [EditorId] 4049334745 [Version] 1048832 [Id] OSXEditor(0,MingdeMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8617364544] Host "[IP] 10.130.239.131 [Port] 0 [Flags] 2 [Guid] 4049334745 [EditorId] 4049334745 [Version] 1048832 [Id] OSXEditor(0,MingdeMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 7.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.8f1c1 (4ec8ee1b2212)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.8f1c1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/ming/Downloads/ui/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.8f1c1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.8f1c1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.8f1c1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56894
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.8f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.8f1c1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004188 seconds.
+- Loaded All Assemblies, in  0.295 seconds
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.201 seconds
+Domain Reload Profiling: 496ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (115ms)
+		LoadAssemblies (101ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (113ms)
+			TypeCache.Refresh (112ms)
+				TypeCache.ScanAssembly (101ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (201ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (153ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (105ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.473 seconds
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.508 seconds
+Domain Reload Profiling: 982ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (307ms)
+		LoadAssemblies (208ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (117ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (508ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (391ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (334ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.8f1c1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3157 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (50.7 KB). Loaded Objects now: 3620.
+Memory consumption went from 127.7 MB to 127.6 MB.
+Total: 3.162750 ms (FindLiveObjects: 0.103083 ms CreateObjectMapping: 0.046792 ms MarkObjects: 2.921209 ms  DeleteObjects: 0.091000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 129276.626628 seconds.
+  path: Assets/Materials/pVRayMtl5.mat
+  artifactKey: Guid(82ac069a07252e345a995239dc7b68ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/pVRayMtl5.mat using Guid(82ac069a07252e345a995239dc7b68ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102a5513fa66ea8d6348b5328d99ca8d') in 0.189978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.559715 seconds.
+  path: Assets/Materials/sp_screen3.mat
+  artifactKey: Guid(52447054a4d5606468069b7659c2e5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/sp_screen3.mat using Guid(52447054a4d5606468069b7659c2e5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf80b5e45725d08c24fa7b20b1d4dc3') in 0.006515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Materials/VRayFastSSS2Mtl1.mat
+  artifactKey: Guid(ada45572c5e216c4595e9652ba6322cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/VRayFastSSS2Mtl1.mat using Guid(ada45572c5e216c4595e9652ba6322cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac01070ba9d8e33338458a3d45fd89e') in 0.004778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000783 seconds.
+  path: Assets/Materials/sp_Steps.mat
+  artifactKey: Guid(e5e2b6384aefe0547bef50f7d72b1b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/sp_Steps.mat using Guid(e5e2b6384aefe0547bef50f7d72b1b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4696efd3aff9cf02fd39f16529711292') in 0.008083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013904 seconds.
+  path: Assets/Materials/VRayMtl4.mat
+  artifactKey: Guid(51ae5ec4c0279344c9e3a11618846f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/VRayMtl4.mat using Guid(51ae5ec4c0279344c9e3a11618846f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6c5672b8c32a6a709857919e23ca4e') in 0.004062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Materials/VRayMtl6.mat
+  artifactKey: Guid(fc5e8a0a436d19849a702ff245f3a5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/VRayMtl6.mat using Guid(fc5e8a0a436d19849a702ff245f3a5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d996e96463fc3084608b2508047cee8') in 0.003947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Materials/VRayMtl8.mat
+  artifactKey: Guid(53f35306a27748046aa4aba8f5562437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/VRayMtl8.mat using Guid(53f35306a27748046aa4aba8f5562437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257795b63674bad436c899d714da29b9') in 0.004879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Materials/VRayMtl12.mat
+  artifactKey: Guid(e81b45685e19a5849ad743701f3a0420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/VRayMtl12.mat using Guid(e81b45685e19a5849ad743701f3a0420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8c357bb285a229e5b684b7182d2b85') in 0.004529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.013497 seconds.
+  path: Assets/Materials/VRayMtl16.mat
+  artifactKey: Guid(ae4dfa243c083584387182dcf4954323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/VRayMtl16.mat using Guid(ae4dfa243c083584387182dcf4954323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8e7318a4661b8b582ea92846bfd26b') in 0.004099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Materials/VRayMtl19.mat
+  artifactKey: Guid(d594a93e74b5c43429262717e75d6f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/VRayMtl19.mat using Guid(d594a93e74b5c43429262717e75d6f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca26eb9ee5e14dc7205875d38821e2f') in 0.004251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Materials/VRayMtl20.mat
+  artifactKey: Guid(9f246b527909a634599adea23e6a3822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/VRayMtl20.mat using Guid(9f246b527909a634599adea23e6a3822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8ef92b2a0868613dffd1b7c5df0148') in 0.004751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Materials/VRayMtl18.mat
+  artifactKey: Guid(f99734fd8ff2eb944a67eaa92914c345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/VRayMtl18.mat using Guid(f99734fd8ff2eb944a67eaa92914c345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5c8de28b7a49cbf9ef304dd760baf5') in 0.004581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.010501 seconds.
+  path: Assets/Materials/VRayMtl28.mat
+  artifactKey: Guid(d51bb22c2f7b4314ca41c7c60a527a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/VRayMtl28.mat using Guid(d51bb22c2f7b4314ca41c7c60a527a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96afccbb93c8ba1cbf3fd9a6653ecf9b') in 0.003973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Materials/VRayMtl32.mat
+  artifactKey: Guid(b0345dceb402f0d429ba6ae067ed1b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/VRayMtl32.mat using Guid(b0345dceb402f0d429ba6ae067ed1b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00ec9fdc800c3c2b0365cdd2e7cc524') in 0.004761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/Materials/VRayMtl30.mat
+  artifactKey: Guid(2d1b8da6ecd81ef4eb8239fe294c3224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/VRayMtl30.mat using Guid(2d1b8da6ecd81ef4eb8239fe294c3224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e045bef8d35fbea2624db0ca1b8fb2') in 0.006465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.010448 seconds.
+  path: Assets/Materials/VRayMtl37.mat
+  artifactKey: Guid(f772a0b42cd819047bea6cc2a66e51eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/VRayMtl37.mat using Guid(f772a0b42cd819047bea6cc2a66e51eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ee5a23e59540ad3cf8be6ca63ef5c9') in 0.008337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.022450 seconds.
+  path: Assets/Materials/VRayMtl40.mat
+  artifactKey: Guid(75f8816aec0a57b4d912d7c4605ac330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/VRayMtl40.mat using Guid(75f8816aec0a57b4d912d7c4605ac330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109c543dc55030c2ce24433b97214f22') in 0.004856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Materials/VRayMtl43.mat
+  artifactKey: Guid(973810d5c0307dc409b4761d69b0e377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/VRayMtl43.mat using Guid(973810d5c0307dc409b4761d69b0e377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a41860425b4181b984c00a10746c8e') in 0.004025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 35.797017 seconds.
+  path: Assets/植物盆栽/禅意盆景 (1).fbm/M_04___Default2.jpg
+  artifactKey: Guid(89a8ac703d14f0641afbf1499bf5f843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/植物盆栽/禅意盆景 (1).fbm/M_04___Default2.jpg using Guid(89a8ac703d14f0641afbf1499bf5f843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c852fe48a9dc42f99e36b330ce5ad88') in 0.018983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.693277 seconds.
+  path: Assets/植物盆栽/禅意盆景 (2).fbm/Mat3d66_635620_10_1.jpg
+  artifactKey: Guid(b56845b85483613449097a6a8971f9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/植物盆栽/禅意盆景 (2).fbm/Mat3d66_635620_10_1.jpg using Guid(b56845b85483613449097a6a8971f9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0559fc4690bfcf6e74dc76da2982c20a') in 0.007051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.563579 seconds.
+  path: Assets/植物盆栽/禅意盆景 (10).fbx
+  artifactKey: Guid(c6391197b20162c408a1a9054ce19de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/植物盆栽/禅意盆景 (10).fbx using Guid(c6391197b20162c408a1a9054ce19de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965d81b5ec06aeb9c59380df6975eaef') in 0.088847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/植物盆栽/禅意盆景 (19).fbx
+  artifactKey: Guid(b27dd3ae0f3e25b4f8d975ad0d41d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/植物盆栽/禅意盆景 (19).fbx using Guid(b27dd3ae0f3e25b4f8d975ad0d41d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bdfa9d57e9baa11a138cb535cbae3b3') in 0.053329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.001117 seconds.
+  path: Assets/植物盆栽/禅意盆景 (12).fbx
+  artifactKey: Guid(5062697ef91780245a9e885816c45364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/植物盆栽/禅意盆景 (12).fbx using Guid(5062697ef91780245a9e885816c45364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12c8072b1b00faddf1b22ce7afd8e0e') in 0.372485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 390
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.9 KB). Loaded Objects now: 3667.
+Memory consumption went from 77.3 MB to 77.3 MB.
+Total: 3.375167 ms (FindLiveObjects: 0.142792 ms CreateObjectMapping: 0.045625 ms MarkObjects: 3.168000 ms  DeleteObjects: 0.018500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9.045243 seconds.
+  path: Assets/植物盆栽/New Folder
+  artifactKey: Guid(184901ced19094676a3405759e274d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/植物盆栽/New Folder using Guid(184901ced19094676a3405759e274d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0344b1b8b8e31a79d6b49197911af79b') in 0.000638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 46.168926 seconds.
+  path: Assets/植物盆栽/Materials/FL_1.mat
+  artifactKey: Guid(940803039f5bead4aaa52b8ecd7175de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/植物盆栽/Materials/FL_1.mat using Guid(940803039f5bead4aaa52b8ecd7175de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b10779d0c6021455061dadc544f797') in 0.010165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/植物盆栽/Materials/hpen1.mat
+  artifactKey: Guid(312f68f90e41c5e49ac489e417a4fdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/植物盆栽/Materials/hpen1.mat using Guid(312f68f90e41c5e49ac489e417a4fdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ab1f04c62db3f54cb3816b71ff3f34') in 0.006689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/植物盆栽/Materials/Mat3d66_543255_5_1.mat
+  artifactKey: Guid(0c15c78cc24204a43bf082304a0c0ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/植物盆栽/Materials/Mat3d66_543255_5_1.mat using Guid(0c15c78cc24204a43bf082304a0c0ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd38e977b5dd697ce30fef64a28977ba') in 0.006852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/植物盆栽/Materials/Mat3d66_550400_22_1.mat
+  artifactKey: Guid(2a295498e7ef36e46a4532745b23f66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/植物盆栽/Materials/Mat3d66_550400_22_1.mat using Guid(2a295498e7ef36e46a4532745b23f66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f437d4c99d890d8db0af79da7e51cf') in 0.005057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/植物盆栽/Materials/Material__2.mat
+  artifactKey: Guid(9516b29b54c2b934da97dadf23f4f8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/植物盆栽/Materials/Material__2.mat using Guid(9516b29b54c2b934da97dadf23f4f8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ac64811c7bd180acaf0fc686091a43') in 0.004596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/植物盆栽/Materials/Mat3d66_635620_8_1.mat
+  artifactKey: Guid(b71642086c1980546b7c1b4155d0b977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/植物盆栽/Materials/Mat3d66_635620_8_1.mat using Guid(b71642086c1980546b7c1b4155d0b977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35881b761f295ba7047a96d5b0752da8') in 0.004985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/植物盆栽/Materials/Mat3d66_543255_3_1.mat
+  artifactKey: Guid(67294878de766ee4a9bda168db1e1a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/植物盆栽/Materials/Mat3d66_543255_3_1.mat using Guid(67294878de766ee4a9bda168db1e1a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236977c6f7ad0f1f3d3361d979f92d53') in 0.005409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001238 seconds.
+  path: Assets/植物盆栽/Materials/g1.mat
+  artifactKey: Guid(49088e3dfb9763344bc5d93807b0672b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/植物盆栽/Materials/g1.mat using Guid(49088e3dfb9763344bc5d93807b0672b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fcfecbaaed4bea81c76ff2f6e475886') in 0.005451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.797062 seconds.
+  path: Assets/植物盆栽/禅意盆景 (10).fbm/Material__1.jpg
+  artifactKey: Guid(47e15dc89dc08874ebdf5129470598f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/植物盆栽/禅意盆景 (10).fbm/Material__1.jpg using Guid(47e15dc89dc08874ebdf5129470598f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e701cf9c0ed494e52413025a8ff43be5') in 0.006513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.254436 seconds.
+  path: Assets/植物盆栽/禅意盆景 (12).fbm/hpen1.jpg
+  artifactKey: Guid(4a0bd6738ac58764e822cf514b54ad48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/植物盆栽/禅意盆景 (12).fbm/hpen1.jpg using Guid(4a0bd6738ac58764e822cf514b54ad48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3818cbf4b2b415237f5d63d38b8497') in 0.006970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.234822 seconds.
+  path: Assets/植物盆栽/禅意盆景 (17).fbm/xiadele_Mat3d66_543641_33_1.jpg
+  artifactKey: Guid(ffcd721652d48004da49cb97ac17be48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/植物盆栽/禅意盆景 (17).fbm/xiadele_Mat3d66_543641_33_1.jpg using Guid(ffcd721652d48004da49cb97ac17be48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a0d0b27b9f9d3127d6f36c40ea7a7a') in 0.006304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/植物盆栽/禅意盆景 (17).fbm/xiadele_Mat3d66_543641_34_1_1.jpg
+  artifactKey: Guid(e049aa3331a3e0846a745839d283ba91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/植物盆栽/禅意盆景 (17).fbm/xiadele_Mat3d66_543641_34_1_1.jpg using Guid(e049aa3331a3e0846a745839d283ba91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702fb13d7fa2dc89d40d2e0dcdec46f6') in 0.007139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 29.056350 seconds.
+  path: Assets/ui/关卡显示面板.png
+  artifactKey: Guid(8024cfb9ed30ae44bab8fd44b36296d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ui/关卡显示面板.png using Guid(8024cfb9ed30ae44bab8fd44b36296d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb13873e898b113c6fba52f7a4de8ce3') in 0.027955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/ui/弹窗2.jpg
+  artifactKey: Guid(a2fbb64e4928a464ab2591492e905bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ui/弹窗2.jpg using Guid(a2fbb64e4928a464ab2591492e905bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21add285b436c631f4e7aa8e209a2273') in 0.011413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
